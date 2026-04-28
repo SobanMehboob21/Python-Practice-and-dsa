@@ -5,7 +5,7 @@ num_2=input("Enter Second Value: ")
 
 
 if num_1.isdigit() and num_2.isdigit():
-    print("Proceeding")
+    print("Proceeding...")
     sign=input("Select a sign: +,-,*,/  ")
     if sign == "+" :
        print(f"result is {int(num_1)+int(num_2)}")
