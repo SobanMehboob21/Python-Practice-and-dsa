@@ -34,4 +34,4 @@ jobs:
 
       - name: Test with pytest
         run: |
-          echo "10" | pytest -s -o "python_files=*.py" -o "python_functions=*" -o "python_classes=*" practice
+          printf "10\n18\n" | pytest -s -o "python_files=*.py" -o "python_functions=*" -o "python_classes=*" practice
