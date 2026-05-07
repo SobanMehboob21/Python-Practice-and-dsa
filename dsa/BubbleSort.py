@@ -1,4 +1,4 @@
-arr=[1,2,3]
+arr=[6,7,8,3,0,-3,-4,-9]
 n=len(arr)
 
 for i in range(n-1):       #starts from 0 t0 n-1 
@@ -9,5 +9,5 @@ for i in range(n-1):       #starts from 0 t0 n-1
             swapped=True  #means it needed to be swapped
     if not swapped:  # if not Flase
          print(f"{arr} is already sorted")
-         break #to prevent from running multiple times
+         break #to prevent from running multiple
     print(arr)
